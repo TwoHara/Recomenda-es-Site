@@ -1,6 +1,11 @@
 body {
    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     text-align: center;
+    background: linear-gradient(to right, #B06730, #EED9BE);
+}
+
+h2, h1, h3 {
+  color: #FFD700;
 }
 
 .justo {
@@ -8,19 +13,25 @@ body {
   font-size: 20px;
 
 }
+tr:nth-child(even) {
+  background-color: #EED9BE;
+  border: 1px solid gray;
+}
+
+tr:nth-child(odd) {
+  background-color: #E37252;
+  border: 1px solid gray;
+}
 
 table {
   text-align: center;
   border: 1px solid gray;
   border-collapse: collapse;
+  width: 100%;
 }
 
-th {
-  border: 1px solid gray;
+img {
+  width: 50%;
+  background-color: #ffffff;
+  border: 2px solid black;
 }
-
-td {
-  border: 1px solid gray;
-}
-
-
